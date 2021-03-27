@@ -19,7 +19,20 @@ sklearn.metrics
 ```
 ## Usage 
 ```python
-
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split # Import train_test_split function
+from sklearn.preprocessing import LabelEncoder
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import roc_auc_score
+from sklearn import linear_model
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
+from sklearn.linear_model import LogisticRegression
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import auc
+from sklearn.metrics import roc_curve
 ```
 
 ## Operating instructions
